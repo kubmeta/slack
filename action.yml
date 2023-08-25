@@ -1,4 +1,4 @@
-name: slack - GitHub Actions Slack integration
+name: slack - GitHub Actions Slack integration - Kubmeta
 description: Notify Slack of GitHub Actions workflows, jobs and step status.
 author: satterly
 inputs:
