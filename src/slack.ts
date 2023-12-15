@@ -361,7 +361,6 @@ export async function send(
   const postMessage = {
     username: opts?.username || DEFAULT_USERNAME,
     icon_url: opts?.icon_url || DEFAULT_ICON_URL,
-    channel,
     attachments
   }
   core.debug(JSON.stringify(postMessage))
