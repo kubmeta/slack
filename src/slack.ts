@@ -265,7 +265,7 @@ export async function send(
   }
   const fieldsTemplate = Handlebars.compile(JSON.stringify(filteredFields))
 
-  const defaultFooter = '<{{repositoryUrl}}|{{repositoryName}}> #{{runNumber}}'
+  const defaultFooter = '{{repositoryUrl}} | #{{runNumber}}'
   const footerTemplate = Handlebars.compile(opts?.footer || defaultFooter)
 
   const data = {
